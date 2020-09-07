@@ -20,6 +20,7 @@ class S{
         }
     }
 }
+
 class S1{
     private volatile static Object lock = new Object();
     void f(){
