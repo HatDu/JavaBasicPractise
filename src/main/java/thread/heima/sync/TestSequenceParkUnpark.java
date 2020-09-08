@@ -1,4 +1,4 @@
-package thread.interview;
+package thread.heima.sync;
 
 import java.util.concurrent.locks.LockSupport;
 

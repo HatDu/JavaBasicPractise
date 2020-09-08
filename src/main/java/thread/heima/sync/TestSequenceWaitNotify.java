@@ -1,4 +1,4 @@
-package thread.interview;
+package thread.heima.sync;
 
 public class TestSequenceWaitNotify {
     public static void main(String[] args) {
