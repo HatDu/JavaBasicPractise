@@ -1,4 +1,4 @@
-package thread.heima.juc;
+package thread.heima.juc.atomic;
 
 import org.junit.Test;
 
@@ -10,20 +10,19 @@ import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 public class TestLongAdder {
-
     /**
      * ²âÊÔÀÛ¼ÓÆ÷
      */
     @Test
     public void test01(){
         demo(
-                () -> new LongAdder(),
-                (adder) -> adder.increment()
+            () -> new LongAdder(),
+            (adder) -> adder.increment()
         );
 
         demo(
-                () -> new AtomicLong(),
-                (adder) -> adder.getAndIncrement()
+            () -> new AtomicLong(),
+            (adder) -> adder.getAndIncrement()
         );
     }
 
