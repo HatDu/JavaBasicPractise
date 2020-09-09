@@ -1,4 +1,4 @@
-package thread.heima.juc;
+package thread.heima.juc.atomic;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;

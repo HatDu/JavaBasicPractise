@@ -1,4 +1,4 @@
-package thread.heima.juc;
+package thread.heima.juc.atomic;
 
 import org.junit.Test;
 
