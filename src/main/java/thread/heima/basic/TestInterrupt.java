@@ -38,10 +38,10 @@ public class TestInterrupt {
             while(true) {
                 Thread current = Thread.currentThread();
                 boolean interrupted = current.isInterrupted();
-                if(interrupted) {
-                    log.debug(" ´ò¶Ï×´Ì¬: {}", interrupted);
-                    break;
-                }
+//                if(interrupted) {
+//                    log.debug(" ´ò¶Ï×´Ì¬: {}", interrupted);
+//                    break;
+//                }
             }
         }, "t2");
         t2.start();
